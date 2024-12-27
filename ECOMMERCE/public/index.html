@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1 class="logo">ShopNow</h1>
+            <div class="nav-items">
+                <a href="#" class="active">Home</a>
+                <a href="#" class="cart-icon">
+                    Cart <span class="cart-count">0</span>
+                </a>
+                <button onclick="auth.logout()" class="btn-logout">Logout</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="products-grid" id="products"></div>
+    </main>
+
+    <script src="/js/auth.js"></script>
+    <script src="/js/cart.js"></script>
+    <script src="/js/products.js"></script>
+</body>
+</html>
