@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details</title>
+    <script src="script.js" defer></script>
+</head>
+<body onload="displayProduct()">
+    <h1 id="product-name">Product Name</h1>
+    <p>Product description goes here...</p>
+    <button onclick="addToCart(document.getElementById('product-name').innerText)">Add to Cart</button>
+    <a href="cart.html">Go to Cart</a>
+</body>
+</html>

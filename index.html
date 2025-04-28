@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="navbar">
+    <div class="navlogo"><div class="logo"></div></div>
+    <div class="nav-search">
+        <select class="search-select"><option>All</option></select>
+        <input type="text" class="search-input" placeholder="Search Amazon">
+        <div class="search-icon"><i class="fa fa-search"></i></div>
+    </div>
+    <div class="nav-cart" onclick="window.location.href='cart.html'">Cart</div>
+</header>
+
+<div class="shop-section">
+    <div class="box">
+        <div class="box-content">
+            <h2>Clothes</h2>
+            <div class="box-img" style="background-image:url('images/box1_image.jpg');"></div>
+            <button onclick="viewProduct('Clothes')">View Details</button>
+            <button onclick="addToCart('Clothes')">Add to Cart</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-content">
+            <h2>Electronics</h2>
+            <div class="box-img" style="background-image:url('images/box4_image.jpg');"></div>
+            <button onclick="viewProduct('Electronics')">View Details</button>
+            <button onclick="addToCart('Electronics')">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
